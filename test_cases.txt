@@ -1,0 +1,100 @@
+TEST_CASE 1:
+- Cache size = 20, num_of_tests = 50, max_fib_value = 20
+- I expect to get a high cache hit ratio percentage. 
+- Output: "Cache size 20, (times found / times looked): 33 / 50 = 66.00% cache hit ratio"
+
+
+TEST_CASE 2:
+- Cache size = 10, num_of_tests = 200, max_fib_value = 42
+- I expect the cache hit ratio to be low.
+- Output: "Cache size 10, (times found / times looked): 47 / 200 = 23.50% cache hit ratio"
+
+
+TEST_CASE 3:
+- Cache size = 10, num_of_tests = 200, max_fib_value = 15
+- I expect the cache hit ratio to be high.
+- Output: "Cache size 10, (times found / times looked): 130 / 200 = 65.00% cache hit ratio"
+
+
+TEST_CASE 4:
+- Cache size = 30, num_of_tests = 50, max_fib_value = 45
+- I expect the cache hit ratio to be high.
+- Output: "Cache size 30, (times found / times looked): 20 / 50 = 40.00% cache hit ratio"
+
+
+TEST_CASE 5:
+- Cache size = 30, num_of_tests = 50, max_fib_value = 13
+- I expect the cache hit ratio to be high.
+- Output: "Cache size 30, (times found / times looked): 39 / 50 = 78.00% cache hit ratio"
+
+
+TEST_CASE 6:
+- Cache size = 5, num_of_tests = 60, max_fib_value = 40
+- I expect the cache hit ratio to be low.
+- Output: "Cache size 5, (times found / times looked): 6 / 60 = 10.00% cache hit ratio"
+
+
+TEST_CASE 7:
+- Cache size = 5, num_of_tests = 24, max_fib_value = 42
+- I expect the cache hit ratio to be low.
+- Output: "Cache size 5, (times found / times looked): 3 / 24 = 12.50% cache hit ratio"
+
+
+TEST_CASE 8:
+- Cache size = 45, num_of_tests = 200, max_fib_value = 60
+- I expect the cache hit ratio to be low.
+- Output: "Cache size 45, (times found / times looked): 157 / 200 = 78.50% cache hit ratio"
+
+
+TEST_CASE 9:
+- Cache size = 45, num_of_tests = 100, max_fib_value = 50
+- I expect the cache hit ratio to be high...?
+- Output: "Cache size 45, (times found / times looked): 52 / 100 = 52.00% cache hit ratio"
+
+
+TEST_CASE 10:
+- Cache size = 25, num_of_tests = 145, max_fib_value = 13
+- I expect a very high cache hit ratio.
+- Output: "Cache size 25, (times found / times looked): 133 / 145 = 91.72% cache hit ratio"
+
+
+TEST_CASE 11:
+- Cache size = 25, num_of_tests = 145, max_fib_value = 62
+- I expect a low cache hit ratio.
+- Output: "Cache size 25, (times found / times looked): 48 / 145 = 33.10% cache hit ratio"
+
+
+TEST_CASE 12:
+- Cache size = 25, num_of_tests = 60, max_fib_value = 60
+- I expect a low cache hit ratio.
+- Output: "Cache size 25, (times found / times looked): 23 / 60 = 38.33% cache hit ratio"
+
+
+TEST_CASE 13:
+- Cache size = 50, num_of_tests = 140, max_fib_value = 35
+- I expect a very high cache hit ratio
+- Output: "Cache size 50, (times found / times looked): 106 / 140 = 75.71% cache hit ratio"
+
+
+TEST_CASE 14:
+- Cache size = 50, num_of_tests = 70, max_fib_value = 42
+- I expect a very high cache hit ratio.
+- Output: "Cache size 50, (times found / times looked): 35 / 70 = 50.00% cache hit ratio"
+
+
+TEST_CASE 15:
+- Cache size = 1, num_of_tests = 100, max_fib_value = 10
+- I expect a low cache hit ratio.
+- Output: "Cache size 1, (times found / times looked): 5 / 100 = 5.00% cache hit ratio"
+
+
+TEST_CASE 16:
+- Cache size = 1, num_of_tests = 100, max_fib_value = 5
+- I expect a high cache hit ratio.
+- Output: "Cache size 1, (times found / times looked): 14 / 100 = 14.00% cache hit ratio"
+
+
+TEST_CASE 17:
+- Cache size = 1, num_of_tests = 100, max_fib_value = 2
+- I expect a very high cache hit ratio.
+- Output: "Cache size 1, (times found / times looked): 43 / 100 = 43.00% cache hit ratio"
